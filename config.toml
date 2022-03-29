@@ -11,6 +11,43 @@ theme = "CodeIT"
 [params]
   # CodeIT theme version
   version = "0.2.X"
+  # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
+  fingerprint = "sha256"
+
+  [params.home.profile]
+    enable = true
+    typeit = true
+    social = false
+    subtitle = "A blog about security and other things"
+
+  [params.footer]
+    enable = true
+    hugo = false
+    copyright = false
+    author = false
+
+  [params.social]
+    [params.social.Gitlab]
+      id = "eric"
+      prefix = "https://invent.kde.org/"
+      title = "KDE Gitlab"
+    [params.social.Github]
+      id = "armbruer"
+      prefix = "https://github.com"
+      title = "Github"
+    [params.social.Email]
+      id = "eric.armbruster@tum.de"
+      title = "Email"
+
+
+[author]
+  name = "Eric Armbruster"
+  email = "eric.armbruster@tum.de"
+  link = ""
+
+[privacy]
+  [privacy.googleAnalytics]
+    respectDoNotTrack = true
 
 [menu]
   [[menu.main]]
