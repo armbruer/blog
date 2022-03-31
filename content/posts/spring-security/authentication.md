@@ -450,7 +450,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 }
 ```
 
-#### CORS
+#### Cross-Origin Resource Sharing
+
+Cross-Origin Resource Sharing
 
 ```Java
 @Configuration
@@ -489,4 +491,3 @@ public String csrf() {
 - [2] [Should Logging Out Be a GET or POST?](https://www.baeldung.com/logout-get-vs-post)
 - [3] [HttpOnly](https://owasp.org/www-community/HttpOnly)
 - [4] [Introducing Docker Secrets Management](https://www.docker.com/blog/docker-secrets-management/)
-- [5] [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
