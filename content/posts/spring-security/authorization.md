@@ -20,7 +20,7 @@ checking authorization at method-level and at the level of individual users.
 ## Method-Level Authorization
 
 First, we need to enable `@PreAuthorize` and `@PostAuthorize` 
-annotations which are required for checking method-level security, by adding `@EnableGlobalMethodSecurity(prePostEnabled = true)` to a `@Configuration` bean that extends `GlobalMethodSecurityConfiguration`.
+annotations which are required for checking method-level security, by adding `@EnableGlobalMethodSecurity(prePostEnabled = true)` to a `@Configuration` bean that extends `GlobalMethodSecurityConfiguration` [1].
 
 ```Java
 @Configuration
@@ -190,4 +190,6 @@ public Delivery findDeliveryById(@PathVariable String id) {
 }
 ```
 
-## Discussion
+## References
+
+- [1] [Introduction to Spring Boot Method Security](https://www.baeldung.com/spring-security-method-security)
