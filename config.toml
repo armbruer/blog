@@ -3,22 +3,35 @@ baseURL = "http://example.org/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "Eric Armbruster"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
+title = "Eric Armbruster"
 
 [params]
+  defaultTheme = "auto"
+  title = "Eric Armbruster"
+  dateFormat = "01.01.1999"
+  description = "A personal blog about life, computer science, and cybsersecurity."
   # LoveIt theme version
   version = "0.2.X"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = "sha512"
+  
+  [params.header.title]
+    logo = ""
+    name = "Eric Armbruster"
+    pre = ""
+    post = ""
+    typeit = true
 
   [params.home.profile]
     enable = true
     typeit = true
     social = true
-    subtitle = "A blog about security and other things"
+    gravatarEmail = "eric1@armbruster-online.de"
+    title = "A blog about security and other things"
+    subtitle = ""
 
   [params.footer]
     enable = true
