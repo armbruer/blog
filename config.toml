@@ -9,15 +9,15 @@ title = "Eric Armbruster"
 theme = "LoveIt"
 
 [params]
-  # CodeIT theme version
+  # LoveIt theme version
   version = "0.2.X"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
-  fingerprint = "sha256"
+  fingerprint = "sha512"
 
   [params.home.profile]
     enable = true
     typeit = true
-    social = false
+    social = true
     subtitle = "A blog about security and other things"
 
   [params.footer]
@@ -27,17 +27,42 @@ theme = "LoveIt"
     author = false
 
   [params.social]
+    [params.social.Email]
+      weight = 2
+      id = "eric.armbruster@tum.de"
+      title = "Email"
+    [params.social.Keybase]
+      weight = 3
+      id = "armbruer"
+      prefix = "https://keybase.io/"
+      title = "Keybase"
+    [params.social.Matrix]
+      weight = 4
+      id = ""
+      prefix = "https://matrix.to/#/"
+      title = "Matrix"
     [params.social.Gitlab]
+      weight = 5
       id = "eric"
       prefix = "https://invent.kde.org/"
       title = "KDE Gitlab"
     [params.social.Github]
+      weight = 6
       id = "armbruer"
       prefix = "https://github.com"
       title = "Github"
-    [params.social.Email]
-      id = "eric.armbruster@tum.de"
-      title = "Email"
+    [params.social.Mastodon]
+      weight = 7
+      id = "@earmbruster"
+      prefix = "https://mastodon.social/"
+      title = "Mastodon"
+    [params.social.LinkedIn]
+      weight = 8
+      id = "ericlucasarmbruster"
+      prefix = "https://linkedin.com/in/"
+      title = "LinkedIn"
+
+
 
 
 [author]
