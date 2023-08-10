@@ -50,7 +50,7 @@ title = "Eric Armbruster"
       title = "Keybase"
     [params.social.Matrix]
       weight = 4
-      id = "eric:kde.org"
+      id = "@eric:kde.org"
       prefix = "https://matrix.to/#/"
       title = "Matrix"
     [params.social.Gitlab]
