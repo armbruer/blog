@@ -6,7 +6,7 @@ languageCode = "en"
 title = "Eric Armbruster"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "CodeIT"
+theme = "LoveIt"
 
 [params]
   # CodeIT theme version
