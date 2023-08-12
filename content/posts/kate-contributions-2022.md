@@ -2,13 +2,18 @@
 title: "Kontributions to Kate and KTextEditor in 2022"
 date: 2023-08-11T16:49:11+02:00
 draft: false
+images: []
+resources:
+- name: "featured-image"
+  src: "kate-welcome-page.png"
+lightgallery: true
 ---
 
 During my third semester at TUM, I switched my OS from Windows to Linux. This happened mostly out of curiosity and wanting to learn about Linux, but also because all the "cool geeks" seemed to use some version of Linux. I ended up with  the Kubuntu distribution, which ships with the Plasma Desktop and KDE applications simply because it looked a bit like Windows. Ever since that (ca. end of 2018), I have been an enthusiastic user of Plasma.
 
-Constantly following the updates from [Nate's blog](https://pointieststick.com/) about ongoing Plasma and KDE Development I got interested more and more. Last year I finally decided to contribute myself to the KDE community.
+Constantly following the updates from [Nate's blog](https://pointieststick.com/) about ongoing Plasma and KDE Development I got interested more and more. Last year I finally decided to contribute myself to the [KDE community](https://kde.org).
 
-I had no prior experience working with (large) C++ codebases and no experience with Qt at all. After looking a while for easy merge requests, I ended up making several contributions to Kate and KTextEditor:
+I had no prior experience working with (large) C++ codebases and no experience with Qt at all. After looking a while for easy merge requests, I ended up making several contributions to the [Kate](https://kate-editor.org/) text editor and to KTextEditor, a framework for building Qt-based text editors.
 
 ## First Contribution
 

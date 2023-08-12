@@ -8,6 +8,13 @@ languageCode = "en"
 theme = "LoveIt"
 title = "Eric Armbruster"
 
+# whether to use robots.txt
+enableRobotsTXT = true
+# whether to use git commit log
+enableGitInfo = true
+# whether to use emoji code
+enableEmoji = true
+
 [params]
   defaultTheme = "auto"
   title = "Eric Armbruster"
@@ -35,8 +42,9 @@ title = "Eric Armbruster"
   [params.footer]
     enable = true
     hugo = false
-    copyright = false
-    author = false
+    copyright = true
+    author = true
+    since = 2022
 
   [params.social]
     [params.social.Email]
