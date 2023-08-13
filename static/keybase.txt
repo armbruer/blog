@@ -1,1 +1,57 @@
+==================================================================
+https://keybase.io/armbruer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ericarmbruster.de
+  * I am armbruer (https://keybase.io/armbruer) on keybase.
+  * I have a public key ASDF6sk4bUXoHo_jWO4ndyIDnwaLdzW3FWuLONmkG058rQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c5eac9386d45e81e8fe358ee277722039f068b7735b7156b8b38d9a41b4e7cad0a",
+      "host": "keybase.io",
+      "kid": "0120c5eac9386d45e81e8fe358ee277722039f068b7735b7156b8b38d9a41b4e7cad0a",
+      "uid": "7c3a849cff0a1d1f7b875954de976519",
+      "username": "armbruer"
+    },
+    "merkle_root": {
+      "ctime": 1691904128,
+      "hash": "d3a0d7e7d5dc34a1cc13cbecac86f6a604be5a82faf8dbd2d39e3fdca7389a7c24d05496883e2f486ca73c3c6650ca7522e9303f14c29a1a7c9c36365a525890",
+      "hash_meta": "b7ee74b17a7d5b72e7699c69a804206c6ef7ae0279bcb970d230121103ca45d4",
+      "seqno": 24802720
+    },
+    "service": {
+      "entropy": "vXYffVrl7xu6VQ3Z2PHGuHEo",
+      "hostname": "ericarmbruster.de",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1691904180,
+  "expire_in": 504576000,
+  "prev": "e2fbff633f5c7ac6527a86b45f83e9b9801ef5a22460bf030028f30b2eb2d18b",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgxerJOG1F6B6P41juJ3ciA58Gi3c1txVrizjZpBtOfK0Kp3BheWxvYWTESpcCB8Qg4vv/Yz9cesZSeoa0X4PpuYAe9aIkYL8DACjzCy6y0YvEIDR7CEUoR9dkKmJJKFhOQ8VS+c5ZLhfP+JWk1kXE48hPAgHCo3NpZ8RAayNbgrvWxGUPmbhGHVIKLn+jVj2L/Ks8XBEgn0Od2TuwtoFYjKAoDFlSxzyjDmdLYxiA6zp05JUjLAZ6q5SSAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEID2M5eYaVi2sFDBDFZ4VnkDgAA1vjJhK41zZ3m49Mudho3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/armbruer
+
+==================================================================
  
