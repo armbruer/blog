@@ -2,6 +2,13 @@
 title: "ETFOptimizer: A Portfolio Optimization Tool for ETFs"
 date: 2023-11-05T13:38:23+01:00
 draft: false
+tags: 
+- data-analysis
+- portfolio-optimization
+- python
+- scraping
+categories:
+- Data-Science
 ---
 
 ## Motivation and Goals
