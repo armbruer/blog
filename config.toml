@@ -3,6 +3,8 @@ baseURL = "http://example.org/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
+languageName = "English"
+
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -15,6 +17,7 @@ enableGitInfo = true
 # whether to use emoji code
 enableEmoji = true
 
+
 [params]
   defaultTheme = "auto"
   title = "Eric Armbruster"
@@ -23,6 +26,10 @@ enableEmoji = true
   version = "0.2.X"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = "sha512"
+  
+  [outputs]
+    home = ["HTML", "RSS", "JSON"]
+
   
   [params.header.title]
     logo = ""
@@ -38,6 +45,10 @@ enableEmoji = true
     gravatarEmail = "eric1@armbruster-online.de"
     title = "A blog about security and other things"
     subtitle = ""
+    
+  [params.page.share]
+      enable = false
+
 
   [params.footer]
     enable = true
@@ -88,7 +99,7 @@ enableEmoji = true
 [author]
   name = "Eric Armbruster"
   email = "eric.armbruster@tum.de"
-  link = ""
+  link = "ericarmbruster.de"
 
 [privacy]
   [privacy.googleAnalytics]

@@ -7,6 +7,14 @@ resources:
 - name: "featured-image"
   src: "kate-welcome-page.png"
 lightgallery: true
+tags: 
+- KDE
+- FOSS
+- Kate
+- Linux
+- QT
+categories:
+- FOSS
 ---
 
 During my third semester at TUM, I switched my OS from Windows to Linux. This happened mostly out of curiosity and wanting to learn about Linux, but also because all the "cool geeks" seemed to use some version of Linux. I ended up with  the Kubuntu distribution, which ships with the Plasma Desktop and KDE applications simply because it looked a bit like Windows. Ever since that (ca. end of 2018), I have been an enthusiastic user of Plasma.
