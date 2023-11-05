@@ -26,11 +26,11 @@ enableEmoji = true
   version = "0.2.X"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = "sha512"
-  
+
   [outputs]
     home = ["HTML", "RSS", "JSON"]
 
-  
+
   [params.header.title]
     logo = ""
     name = "Eric Armbruster"
@@ -43,9 +43,9 @@ enableEmoji = true
     typeit = true
     social = true
     gravatarEmail = "eric1@armbruster-online.de"
-    title = "A blog about security and other things"
+    title = "A personal blog about FOSS, data science, and cybsersecurity."
     subtitle = ""
-    
+
   [params.page.share]
       enable = false
 
