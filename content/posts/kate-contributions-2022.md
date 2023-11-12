@@ -1,6 +1,7 @@
 ---
 title: "Kontributions to Kate and KTextEditor in 2022"
 date: 2023-08-11T16:49:11+02:00
+author: Eric Armbruster
 draft: false
 images: []
 resources:

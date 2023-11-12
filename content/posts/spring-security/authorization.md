@@ -9,7 +9,7 @@ tags:
 - Spring Security
 - Authorization
 categories:
-- Security Engineering
+- CyberSec
 ---
 
 # Fine-Grained Authorization with Spring Boot

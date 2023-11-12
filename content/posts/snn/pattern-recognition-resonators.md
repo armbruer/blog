@@ -2,6 +2,7 @@
 title: "Pattern Recognition Resonators"
 date: 2023-11-10T13:55:54+01:00
 draft: false
+author: Eric Armbruster
 tags: 
 - resonate-and-fire-neuron
 - pattern-recognition

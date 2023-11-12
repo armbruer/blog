@@ -12,7 +12,7 @@ tags:
 - CORS
 - XSRF
 categories:
-- Security Engineering
+- CyberSec
 ---
 
 # Securing a Spring Boot Web Application
